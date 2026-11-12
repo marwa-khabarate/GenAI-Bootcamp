@@ -4,3 +4,8 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 
+# Private assignment and presentation materials
+/assignment-pharma.pdf
+/PRESENTATION.md
+/presentation-output/
+

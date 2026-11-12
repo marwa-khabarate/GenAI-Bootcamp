@@ -70,9 +70,3 @@ pytest -q
 
 The public evaluation scenarios are covered in `tests/test_evaluations.py`. After a Docker launch, run `python scripts/smoke_test.py`.
 
-`AI_ASSISTANCE.md` records the non-secret AI development configuration requested in the assignment.
-
-## Presentation
-
-The English, time-boxed demonstration script is in PRESENTATION.md. It covers the problem, live demo, architecture, tool choices, grounding controls, and implementation trade-offs.
-
