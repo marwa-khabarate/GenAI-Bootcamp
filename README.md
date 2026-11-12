@@ -24,6 +24,10 @@ Browser → POST /ask → Planner → Local tools → Evidence set → Grounded 
 
 The corpus is bundled in the image. No question or corpus content is persisted, uploaded, or sent to any service except the configured LLM endpoint when LLM-assisted mode is enabled.
 
+## AI coding configuration
+
+The repository includes a public, non-secret Codex configuration in `.codex/config.toml` and project guidance in `AGENTS.md`. It configures the read-only OpenAI Developer Documentation MCP server used during development. The application does not require Codex or MCP to run.
+
 ## Run locally
 
 Use Python 3.11+.
