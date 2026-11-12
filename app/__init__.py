@@ -1,0 +1,2 @@
+"""Pharma research assistant package."""
+

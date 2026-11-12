@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pharma Research Assistant</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <p class="eyebrow">LOCAL CORPUS • GROUNDED RESEARCH</p>
+        <h1>Pharma Research Assistant</h1>
+        <p class="lede">An agentic, evidence-first assistant for the supplied pharmacology corpus.</p>
+      </section>
+      <section class="panel">
+        <label for="question">Research question</label>
+        <textarea id="question" rows="5" placeholder="e.g. Compare the contraindications of warfarin and apixaban."></textarea>
+        <div class="actions">
+          <button id="ask" type="button">Research the corpus</button>
+          <label class="example-picker" for="example">Load an example
+            <select id="example" disabled>
+              <option value="">Loading LLM-generated examples…</option>
+            </select>
+          </label>
+        </div>
+        <p class="notice">For technical demonstration only — not medical advice.</p>
+      </section>
+      <section id="status" aria-live="polite"></section>
+      <section id="result" hidden>
+        <div class="result-head"><h2>Grounded answer</h2><span id="mode"></span></div>
+        <article id="answer"></article>
+        <div class="trace"><h3>Agent trace</h3><div id="plan"></div><div id="tools"></div><div id="review"></div></div>
+        <div><h3>Evidence used</h3><div id="citations" class="citations"></div></div>
+      </section>
+    </main>
+    <script src="/static/app.js?v=20261112-2"></script>
+  </body>
+</html>
+

@@ -1,0 +1,9 @@
+.env
+.git
+.pytest_cache
+__pycache__
+*.pyc
+assignment-pharma.pdf
+tests
+README.md
+
